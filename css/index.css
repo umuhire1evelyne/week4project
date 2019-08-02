@@ -59,19 +59,19 @@ h7{
       display: flex;
       justify-content: space-between;
       flex-direction: row;
-      margin-right: 10%;
-      margin-left: 10%;
+      margin-right: 100px;
+      margin-left: 100px;
       padding-top: 5%;
   }
-  .sma{
-      font-size: 20px;
+  #sma{
+      font-size: 15px;
       display: none;
   }
-  .med{
-    font-size: 20px;
+  #med{
+    font-size: 15px;
     display: none;
 }
-.lar{
-    font-size: 20px;
+#lar{
+    font-size: 15px;
     display: none;
 }
