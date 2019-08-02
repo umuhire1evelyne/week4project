@@ -3,24 +3,6 @@ h7{
     font-size: 10px;
     color: rgb(223, 114, 24);
 }
-.intro ul li{
-    display:inline-block;
-    margin-left: 10%;
-    margin-top: 0%;
-  }
-  
-  .intro a:link{
-    display:inline-block;
-    color:rgb(223, 114, 24);
-    padding:14px 25px;
-    font-family:arial bold;
-    text-decoration:none;
-    
-  }
-  .intro a:hover{
-    text-decoration:none;
-    color:rgb(65, 241, 30);
-  }
   .medium{
       color:rgb(156, 4, 4);
       text-align: center;
@@ -55,3 +37,41 @@ h7{
     text-decoration:none;
     color:black;
   }
+  .middle{
+      text-align: center;
+      font-size: 30px;
+  }
+  .footer{
+    position:relative;
+    left:0;
+    bottom:0px;
+    width:100%;
+    background-color:rgb(7, 2, 36);
+    color:white;
+    text-align:center;
+    width: 100%;
+    vertical-align: bottom;
+    align-self: flex-end;
+    padding: 90px 20px;
+    margin: 10px 0px;
+  }
+  .menu{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-right: 10%;
+      margin-left: 10%;
+      padding-top: 5%;
+  }
+  .sma{
+      font-size: 20px;
+      display: none;
+  }
+  .med{
+    font-size: 20px;
+    display: none;
+}
+.lar{
+    font-size: 20px;
+    display: none;
+}
