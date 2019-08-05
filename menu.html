@@ -26,54 +26,60 @@
                 <div class="first">
                     <img src="img/small.png" width="200px" height="200px">
                 </div>
-                <h2>Small Size Pizza<br> 4,000RWF</h2>
+                <h2>Small Size Pizza</h2>
            </div>
            <div class="medi">
                 <div class="second">
                     <img src="img/pizza-2 medium.jpg" width="200px" height="200px">
                 </div>
-                <h2>Small Size Pizza<br> 10,000RWF </h2>
+                <h2>Medium Size Pizza</h2>
            </div>
            <div class="larg">
                 <div class="third">
                     <img src="img/large3.png" width="200px" height="200px">
                 </div>
-                <h2>Small Size Pizza<br> 12,000RWF </h2>
+                <h2>Large Size Pizza</h2>
                 
            </div>
        </div>
        <div class="form">
-       <form>
-           <strong>Choose your pizza size<br></strong>
-           <select>
-               <option>Small: 2000RWF</option>
-               <option>Medium: 5000RWF</option>
-               <option>Large: 6,000RWF</option>
+       <form id="pizza">
+           <label for="size">Choose your pizza size</label>
+           <select id="size">
+               <option value="small">Small: 2000RWF</option>
+               <option value="medium">Medium: 5000RWF</option>
+               <option value="large">Large: 6,000RWF</option>
            </select><br>
-           <strong>Toppings:1500rwf <br></strong>
-           <select>
-               <option>Tomato sauce</option>
-               <option>meat</option>
-               <option>cheese</option>
-               <option>green pepper</option>
-               <option>baby fresh spinach</option>
-               <option>garlic</option>
-               <option>broccoli</option>
-               <option>fresh spinach</option>
-               <option>jambo</option>
-               <option>saucage</option>
-               <option>red pepper</option>
+           <label for="toppings">Toppings</label><br>
+           <select id="toppings">
+               <option value="tomato sauce">Tomato sauce:500RWF</option>
+               <option value="beef">beef:2000RWF</option>
+               <option value="cheese">cheese:500RWF</option>
+               <option value="vegetable">vegetable:800RWF</option>
+               <option value="onions">onions:500RWF</option>
+               <option value="broccoli">broccoli:300RWF</option>
+               <option value="jambo">jambo:1000RWF</option>
+               <option value="saucage">saucage:1000RWF</option>
            </select><br>
-           <strong>Crust of Pizza<br></strong>
-           <select>
-               <option>cripsy: 800RWF</option>
-               <option>stuffed: 600RWF</option>
-               <option>clutten: 1,000RWF</option>
-               <option>Thin: 400RWF</option>
-               <option>Multi-grain: 1,500RWF</option>
+           <label for="crusts">Crust of Pizza</label>
+           <select id="crusts">
+               <option value="cripsy">Cripsy: 800RWF</option>
+               <option value="stuffed">Stuffed: 600RWF</option>
+               <option value="Clutten">Clutten: 1,000RWF</option>
+               <option value="thin">Thin: 400RWF</option>
+               <option value="Multi-grain">Multi-grain: 1,500RWF</option>
            </select><br>
+           <button type="submit" class="btn">Order</button>
 
        </form>
+       </div>
+       <div class="lowerr">
+           Size: <span class="size"> </span><br>
+           Toppings: <span class="toppings"> </span><br>
+           Crust: <span class="crusts"> </span><br>
+           Total price: <span class="price"></span><br>
+           <input type="submit" value="submit">
+
        </div>
 
    </div>
