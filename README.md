@@ -23,7 +23,7 @@ This project is telling us how Pizza house work online where the customer order 
 
 MIT License
 
-Copyright (c) 2019 John Mutavi
+Copyright (c) 2019 Evelyne UMUHIRE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
