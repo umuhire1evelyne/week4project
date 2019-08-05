@@ -1,8 +1,42 @@
-function submitById(size, toppings, crusts){
-this.size= size;
-this.toppings= topping;
-this.crusts= crust;
+
+function Order(size, toppings, crusts){
+this.sizes= size;
+this.toppings= toppings;
+this.crusts= crusts;
+this.totalPrice= price;
 }
-var s = ["small", "medium", "large"];
-var t = ["Tomato sauce", "meat", "cheese","green pepper", "baby fresh spinach", "baby fresh spinach", "garlic", "broccoli", "jambo", "saucage", "red pepper"]
-var c = ["Cripsy", "Stuffed", "Clutten", "Thin", "Multi-grain"];
+Order.prototype.fullOrder=function(){
+    return (this.size +" "+ this.toppings +" "+ this.crusts);
+}
+
+function totalprices(size, topping, crust){
+    if(size===s[0] && topping===t[0] && crust===c[0]){
+        totalprice=2000+1500+800;
+    }
+    return(totalprice);
+    alert("total prices");
+}
+
+$(document).ready(funcion()) 
+    $("form#pizza").submit(function(event){
+        event.preventDefault();
+    });
+
+        var size= $("select#size").val();
+        var toppings= $("select#toppings").val();
+        var crusts= $("select#crust").val();
+        var newOrder= new Order(size, toppings, crusts);
+        $("btn").clickfunction()
+        $(".lower").show();
+        $(".size").text(newOrder.size);
+        $(".toppings").text(newOrder.toppings);
+        $(".crust").text(newOrder.crusts);
+        $(".price").text(newOrder.price);
+    
+    console.log(newOrder);
+    
+
+
+
+
+
