@@ -69,19 +69,24 @@
                <option value="thin">Thin: 400RWF</option>
                <option value="Multi-grain">Multi-grain: 1,500RWF</option>
            </select><br>
+           <label for="number">Numbers of Pizza </label>
+           <input type="text"><br>
+           
+
            <button type="submit" class="btn">Order</button>
+           <div class="lowerr">
+                Size: <span class="size"> </span><br>
+                Toppings: <span class="toppings"> </span><br>
+                Crust: <span class="crusts"> </span><br>
+                Total price: <span class="price"></span><br>
+                <button id="sub">Submit</button>
+     
+            </div>
+     
 
        </form>
        </div>
-       <div class="lowerr">
-           Size: <span class="size"> </span><br>
-           Toppings: <span class="toppings"> </span><br>
-           Crust: <span class="crusts"> </span><br>
-           Total price: <span class="price"></span><br>
-           <input type="submit" value="submit">
-
-       </div>
-
+       
    </div>
    <script src="js/jquery-3.4.1.js"></script>
    <script src="js/script.js"></script>
